@@ -1,0 +1,217 @@
+{
+ "available": true,
+ "policy_type": "motor",
+ "demo": true,
+ "title": "Sample motor policy",
+ "rating": "fair",
+ "scenarios": [
+  {
+   "question": "Flood-damaged engine — are you covered?",
+   "item_key": "engine_protection",
+   "art": "engine",
+   "status": "missing",
+   "answer": "No, it's not covered"
+  },
+  {
+   "question": "Is depreciation on new parts covered?",
+   "item_key": "zero_depreciation",
+   "art": "parts",
+   "status": "good",
+   "answer": "Yes, it's covered"
+  },
+  {
+   "question": "Car stolen — do you get the invoice price?",
+   "item_key": "return_to_invoice",
+   "art": "theft",
+   "status": "missing",
+   "answer": "No, it's not covered"
+  },
+  {
+   "question": "Stuck on the highway?",
+   "item_key": "roadside_assistance",
+   "art": "tow",
+   "status": "limited",
+   "answer": "24x7 towing up to 50 km"
+  },
+  {
+   "question": "What is your car insured for?",
+   "item_key": "idv",
+   "art": "car",
+   "status": "info",
+   "answer": "₹6.5 lakh"
+  }
+ ],
+ "sections": [
+  {
+   "key": "own_damage",
+   "title": "Own damage",
+   "subtitle": "Damage to your own vehicle",
+   "rating": null,
+   "items": [
+    {
+     "key": "idv",
+     "label": "Insured value (IDV)",
+     "status": "info",
+     "value": "₹6.5 lakh",
+     "why": "The most you get if the vehicle is stolen or a total loss.",
+     "detail": null,
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "own_damage_premium",
+     "label": "Own-damage premium",
+     "status": "info",
+     "value": "₹9,840",
+     "why": "The part of your premium for your own vehicle.",
+     "detail": "₹9,840",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "compulsory_deductible",
+     "label": "Deductible",
+     "status": "info",
+     "value": "₹1,000 per claim",
+     "why": "The part of each claim you pay yourself.",
+     "detail": "₹1,000 per claim",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "ncb_percentage",
+     "label": "No-claim bonus",
+     "status": "info",
+     "value": "25%",
+     "why": "Discount on renewal for claim-free years.",
+     "detail": "25%",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "third_party",
+   "title": "Third-party liability",
+   "subtitle": "Injury or damage you cause to others (mandatory by law)",
+   "rating": null,
+   "items": [
+    {
+     "key": "third_party_premium",
+     "label": "Third-party cover",
+     "status": "info",
+     "value": "₹3,416",
+     "why": "Required by law to drive on Indian roads.",
+     "detail": "₹3,416",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "add_ons",
+   "title": "Add-ons",
+   "subtitle": "Extra covers that close common claim gaps",
+   "rating": "fair",
+   "items": [
+    {
+     "key": "zero_depreciation",
+     "label": "Zero depreciation",
+     "status": "good",
+     "value": "Covered",
+     "why": "Without it, you pay for wear on replaced parts.",
+     "detail": "Covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "engine_protection",
+     "label": "Engine protection",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Covers engine damage from water or oil leaks, which a basic policy excludes.",
+     "detail": "Not covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "return_to_invoice",
+     "label": "Return to invoice",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Pays the invoice price, not the depreciated value, on theft or total loss.",
+     "detail": "Not covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "consumables",
+     "label": "Consumables",
+     "status": "good",
+     "value": "Covered",
+     "why": "Nuts, bolts, oil and coolant used in repairs.",
+     "detail": "Covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "roadside_assistance",
+     "label": "Roadside assistance",
+     "status": "limited",
+     "value": "24x7 towing up to 50 km",
+     "why": "Towing, flat tyre and fuel help on the road.",
+     "detail": "24x7 towing up to 50 km",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "exclusions",
+   "title": "Not covered",
+   "subtitle": "Exclusions found in your policy",
+   "rating": null,
+   "items": [
+    {
+     "key": "exclusion_0",
+     "label": "Normal wear and tear",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Normal wear and tear",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "exclusion_1",
+     "label": "Driving under the influence",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Driving under the influence",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "exclusion_2",
+     "label": "Driving without a valid licence",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Driving without a valid licence",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "good": 2,
+  "limited": 1,
+  "missing": 2,
+  "info": 5,
+  "unknown": 0
+ },
+ "note": "Sample report with made-up policy details. Add your own policy to see your real cover.",
+ "disclaimer": "Based on the details we read from your document, for your understanding only. Your policy wording and the insurer's decision at claim time are final. This is not a recommendation to buy, keep or change a policy."
+}

@@ -1,0 +1,295 @@
+{
+ "available": true,
+ "policy_type": "health",
+ "demo": true,
+ "title": "Sample health policy",
+ "rating": "fair",
+ "scenarios": [
+  {
+   "question": "Will a delivery bill be paid?",
+   "item_key": "maternity",
+   "art": "maternity",
+   "status": "missing",
+   "answer": "No, it's not covered"
+  },
+  {
+   "question": "Is a private room paid in full?",
+   "item_key": "room_rent_limit",
+   "art": "room",
+   "status": "limited",
+   "answer": "1% of sum insured per day"
+  },
+  {
+   "question": "How long before existing illnesses are covered?",
+   "item_key": "ped_waiting_period",
+   "art": "clock",
+   "status": "good",
+   "answer": "24 months"
+  },
+  {
+   "question": "Cover used up mid-year — what then?",
+   "item_key": "restoration",
+   "art": "refresh",
+   "status": "good",
+   "answer": "Yes, it's covered"
+  },
+  {
+   "question": "Do you pay a share of every bill?",
+   "item_key": "co_payment",
+   "art": "wallet",
+   "status": "good",
+   "answer": "No co-payment"
+  }
+ ],
+ "sections": [
+  {
+   "key": "essentials",
+   "title": "Essentials",
+   "subtitle": "These decide how much of a hospital bill actually gets paid",
+   "rating": "strong",
+   "items": [
+    {
+     "key": "sum_insured",
+     "label": "Sum insured",
+     "status": "info",
+     "value": "₹10 lakh",
+     "why": "The most the policy pays in a year. Big-city surgeries can cost ₹5–15 lakh.",
+     "detail": null,
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "room_rent_limit",
+     "label": "Room rent",
+     "status": "limited",
+     "value": "1% of sum insured per day",
+     "why": "A room-rent cap can cut the payout for the whole bill, not just the room.",
+     "detail": "Single private room, up to 1% of sum insured per day",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "co_payment",
+     "label": "Co-payment",
+     "status": "good",
+     "value": "No co-payment",
+     "why": "A co-payment means you pay a share of every claim yourself.",
+     "detail": "No co-payment",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "deductible",
+     "label": "Deductible",
+     "status": "good",
+     "value": "Not applicable",
+     "why": "With a deductible, the first part of each claim is paid by you.",
+     "detail": "Not applicable",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "ped_waiting_period",
+     "label": "Pre-existing illness waiting",
+     "status": "good",
+     "value": "24 months",
+     "why": "Illnesses you already had are covered only after this wait.",
+     "detail": "24 months",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "pre_post",
+     "label": "Before & after admission",
+     "status": "good",
+     "value": "60–180 days",
+     "why": "Tests and medicines before and after a hospital stay.",
+     "detail": "Before: 60 days. After: 180 days.",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "important",
+   "title": "Important",
+   "subtitle": "Make your cover go further",
+   "rating": "fair",
+   "items": [
+    {
+     "key": "restoration",
+     "label": "Restoration of cover",
+     "status": "good",
+     "value": "Covered",
+     "why": "Refills your sum insured if it runs out in the year.",
+     "detail": "Unlimited restoration of sum insured",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "no_claim_bonus",
+     "label": "No-claim bonus",
+     "status": "limited",
+     "value": "Up to 100%",
+     "why": "Your cover grows for every claim-free year.",
+     "detail": "50% increase per claim-free year, up to 100%",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "day_care",
+     "label": "Day-care treatment",
+     "status": "good",
+     "value": "Covered",
+     "why": "Procedures that need less than 24 hours in hospital.",
+     "detail": "All day-care procedures covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "modern_treatment",
+     "label": "Modern treatments",
+     "status": "limited",
+     "value": "50% of sum insured",
+     "why": "Robotic surgery, immunotherapy and similar care.",
+     "detail": "Covered up to 50% of sum insured",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "specific_disease_waiting_period",
+     "label": "Specific illness waiting",
+     "status": "info",
+     "value": "24 months",
+     "why": "Some illnesses (e.g. cataract, hernia) are covered only after a wait.",
+     "detail": "24 months",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "extras",
+   "title": "Extras",
+   "subtitle": "Useful, but they rarely decide a big claim",
+   "rating": "fair",
+   "items": [
+    {
+     "key": "ambulance",
+     "label": "Ambulance",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Road ambulance to the hospital.",
+     "detail": "Not covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "ayush",
+     "label": "AYUSH treatment",
+     "status": "good",
+     "value": "Covered up to sum insured",
+     "why": "Ayurveda, Yoga, Unani, Siddha and Homeopathy in hospital.",
+     "detail": "Covered up to sum insured",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "opd",
+     "label": "Doctor visits (OPD)",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Consultations and tests without admission.",
+     "detail": "Not covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "home_healthcare",
+     "label": "Treatment at home",
+     "status": "good",
+     "value": "Covered",
+     "why": "Hospital-level treatment given at home.",
+     "detail": "Covered",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "domiciliary",
+     "label": "Domiciliary care",
+     "status": "unknown",
+     "value": "Not found",
+     "why": "Treatment at home when you can't be moved to a hospital.",
+     "detail": null,
+     "page": null,
+     "source": "none"
+    }
+   ]
+  },
+  {
+   "key": "personal",
+   "title": "Depends on your plans",
+   "subtitle": "Matters for some families more than others",
+   "rating": "weak",
+   "items": [
+    {
+     "key": "maternity",
+     "label": "Maternity",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Delivery and related expenses, usually after a waiting period.",
+     "detail": "Not covered",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  },
+  {
+   "key": "exclusions",
+   "title": "Not covered",
+   "subtitle": "Exclusions found in your policy",
+   "rating": null,
+   "items": [
+    {
+     "key": "exclusion_0",
+     "label": "Cosmetic or plastic surgery",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Cosmetic or plastic surgery",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "exclusion_1",
+     "label": "Self-inflicted injury",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Self-inflicted injury",
+     "page": null,
+     "source": "document"
+    },
+    {
+     "key": "exclusion_2",
+     "label": "Treatment outside India",
+     "status": "missing",
+     "value": "Not covered",
+     "why": "Listed as an exclusion in your policy.",
+     "detail": "Treatment outside India",
+     "page": null,
+     "source": "document"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "good": 8,
+  "limited": 3,
+  "missing": 3,
+  "info": 2,
+  "unknown": 1
+ },
+ "note": "Sample report with made-up policy details. Add your own policy to see your real cover.",
+ "disclaimer": "Based on the details we read from your document, for your understanding only. Your policy wording and the insurer's decision at claim time are final. This is not a recommendation to buy, keep or change a policy."
+}

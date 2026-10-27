@@ -1,0 +1,821 @@
+{
+  "@@locale": "en",
+  "languageName": "English",
+  "appLanguage": "App language",
+  "appLanguageHelp": "Buttons, menus and screens. AI answers have their own language setting.",
+  "skip": "Skip",
+  "next": "Next",
+  "getStarted": "Get started",
+  "continueAction": "Continue",
+  "cancel": "Cancel",
+  "seeAll": "See all",
+  "tryAgain": "Try again",
+  "onb1Title": "All your cover, one place",
+  "onb1Body": "Health, life and motor policies for the whole family, kept safe and easy to find.",
+  "onb2Title": "Ask in plain words",
+  "onb2Body": "Every answer points to the page it came from, or tells you it isn't in your policy.",
+  "onb3Title": "Renewals never sneak up",
+  "onb3Body": "A gentle nudge well before your policy ends, so you are never left uncovered.",
+  "onb4Title": "Family and nominees, sorted",
+  "onb4Body": "See who is covered, who gets what, and what to do if something happens.",
+  "loginHeadline": "All your insurance.\nOne place. Clearly explained.",
+  "loginSubhead": "Add your policies, understand what you're covered for, and never miss a renewal.",
+  "mobileNumber": "Mobile number",
+  "consentStart": "I agree to the ",
+  "privacyPolicy": "Privacy Policy",
+  "consentAnd": " and ",
+  "terms": "Terms",
+  "consentEnd": ", and consent to my policy documents being processed to provide this service.",
+  "getOtp": "Get OTP",
+  "otpTitle": "Enter the 6-digit code",
+  "otpSentTo": "Sent to {identifier}",
+  "@otpSentTo": {
+    "placeholders": {
+      "identifier": {
+        "type": "String"
+      }
+    }
+  },
+  "verify": "Verify",
+  "resendIn": "Resend code in {seconds}s",
+  "@resendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "resendCode": "Resend code",
+  "nameTitle": "What should we call you?",
+  "fullName": "Full name",
+  "dobOptional": "Date of birth (optional)",
+  "navHome": "Home",
+  "navPortfolio": "Portfolio",
+  "navExplore": "Explore",
+  "navProfile": "Profile",
+  "addPolicy": "Add policy",
+  "hiName": "Hi {name}",
+  "@hiName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "helloThere": "Hello there",
+  "homeSubtitle": "Here's where your cover stands today.",
+  "whatToDo": "What would you like to do?",
+  "comingUp": "Coming up",
+  "coverageReport": "Coverage report",
+  "askAi": "Ask AI",
+  "claimHelp": "Claim help",
+  "family": "Family",
+  "nominees": "Nominees",
+  "compare": "Compare",
+  "emergencyCard": "Emergency card",
+  "seeCoverageReport": "See your coverage report",
+  "addAPolicy": "Add a policy",
+  "seeSampleReport": "See a sample report",
+  "coinsEarned": "+{coins} coins earned",
+  "@coinsEarned": {
+    "placeholders": {
+      "coins": {
+        "type": "int"
+      }
+    }
+  },
+  "personalDetails": "Personal details",
+  "dateOfBirth": "Date of birth",
+  "city": "City",
+  "state": "State",
+  "save": "Save",
+  "notifications": "Notifications",
+  "renewalReminders": "Renewal reminders",
+  "renewalRemindersHelp": "90, 60, 30, 15, 7 and 1 day before a policy expires",
+  "policyUpdates": "Policy updates",
+  "policyUpdatesHelp": "When a document has been read and is ready to review",
+  "notificationsPromise": "We never send promotional notifications, and notifications never show your policy numbers, amounts or health details.",
+  "faqSafeQ": "Is my data safe?",
+  "faqSafeA": "Your documents are stored encrypted and are only accessible to you. We do not sell your data or share it with insurers or agents.",
+  "faqAiQ": "How does the AI answer my questions?",
+  "faqAiA": "It reads only your own policy document and shows the page its answer came from. If the answer is not in your document it will say so instead of guessing.",
+  "faqWrongQ": "The details extracted from my policy are wrong. What do I do?",
+  "faqWrongA": "Open the policy, tap the ⋮ menu and choose \"Edit details\". Anything you correct is saved as confirmed by you.",
+  "faqUploadQ": "Which documents can I upload?",
+  "faqUploadA": "PDF policy documents work best. You can also upload a clear photo (JPG/PNG) up to 20 MB. Password-protected PDFs must be unlocked first.",
+  "faqSellQ": "Do you sell insurance?",
+  "faqSellA": "No. {app} helps you organise and understand the policies you already have. We do not sell or recommend insurance products.",
+  "@faqSellA": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "faqDeleteQ": "How do I delete my account?",
+  "faqDeleteA": "Profile → Privacy & data → Delete account. Your data is permanently deleted after 7 days.",
+  "supportThanks": "Thanks — we'll get back to you within 2 working days.",
+  "helpSupport": "Help & support",
+  "faqTitle": "Frequently asked questions",
+  "contactUs": "Contact us",
+  "topic": "Topic",
+  "topicQuestion": "A question",
+  "topicProblem": "Something isn't working",
+  "topicFeedback": "Feedback",
+  "topicPrivacy": "Privacy / my data",
+  "topicGrievance": "Complaint (grievance)",
+  "howCanWeHelp": "How can we help?",
+  "send": "Send",
+  "emailUsInstead": "Email us instead",
+  "deleteAccountQ": "Delete your account?",
+  "deleteAccountBody": "Your account will be disabled now. All your policies, documents and data will be permanently deleted after 7 days. Logging in again within 7 days cancels the deletion.",
+  "deleteAccount": "Delete account",
+  "privacyData": "Privacy & data",
+  "privacyPromise": "We use your policy documents only to show, explain and remind you about your own insurance. Documents are encrypted, never sold, and never shared with insurers or agents. AI processing uses providers contractually barred from training on your data.",
+  "downloadMyData": "Download my data",
+  "downloadMyDataHelp": "A copy of your profile, policies and questions",
+  "privacyPolicyItem": "Privacy policy",
+  "grievanceOfficer": "Grievance officer",
+  "deleteAccountHelp": "Permanently delete all your data",
+  "appLock": "App lock",
+  "appLockHelp": "Use fingerprint, face or device PIN to open the app",
+  "setUpScreenLock": "Set up a screen lock on your phone first.",
+  "aiAnswerLanguage": "AI answer language",
+  "aiAnswerLanguageHelp": "Summaries and answers about your policies will be written in this language. You can ask questions in it too.",
+  "policy": "Policy",
+  "reviewExtracted": "Please review the extracted details",
+  "coverageReportHelp": "What is covered, what has limits and what is not — item by item",
+  "noNomineeAddOne": "No nominee recorded — add one",
+  "notRecorded": "Not recorded",
+  "policyClauses": "Policy clauses",
+  "policyClausesHelp": "Benefits, exclusions, waiting periods and limits — word for word",
+  "whoIsCovered": "Who is covered",
+  "understandPolicy": "Understand your policy",
+  "keyDetails": "Key details",
+  "coverageDetails": "Coverage details",
+  "typeInsurance": "{type} insurance",
+  "@typeInsurance": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "idv": "Insured declared value",
+  "cover": "Cover",
+  "validRange": "Valid {start} – {end}",
+  "@validRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumValue": "Premium {amount}",
+  "@premiumValue": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "askAiShort": "Ask AI",
+  "renewal": "Renewal",
+  "claimHelpAction": "Claim help",
+  "documentsRequired": "Documents usually required",
+  "followInsurerProcess": "Always follow the claim process stated in your policy and by your insurer.",
+  "readingPolicy": "Reading your policy…",
+  "watchOutFor": "Watch out for",
+  "policyNumber": "Policy number",
+  "insurer": "Insurer",
+  "plan": "Plan",
+  "startDate": "Start date",
+  "endDate": "End date",
+  "premium": "Premium",
+  "coverRow": "Cover",
+  "deletePolicyQ": "Delete this policy?",
+  "deletePolicyBody": "The policy, its document and your questions about it will be permanently deleted.",
+  "delete": "Delete",
+  "editDetails": "Edit details",
+  "viewDocument": "View document",
+  "deletePolicy": "Delete policy",
+  "policyHealth": "Policy health",
+  "noIssuesFound": "No issues found in the details we read",
+  "thingsToKnow": "{count, plural, =1{1 thing to know about} other{{count} things to know about}}",
+  "@thingsToKnow": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "markedRenewed": "Marked as renewed. Add your new policy document to keep things up to date.",
+  "add": "Add",
+  "renewalTitle": "Renewal",
+  "addEndDate": "Add the policy end date to track renewal.",
+  "expiredOn": "This policy expired on {date}.",
+  "@expiredOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "renewsOn": "Renews on {date} — {days, plural, =1{1 day left} other{{days} days left}}.",
+  "@renewsOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "lastPremium": "Last premium: {amount}",
+  "@lastPremium": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "remindSchedule": "We'll remind you 90, 60, 30, 15, 7 and 1 day before expiry.",
+  "remindersOff": "Renewal reminders are turned off in settings.",
+  "markedAsRenewed": "✓ Marked as renewed",
+  "markedNotRenewing": "Marked as not renewing",
+  "iRenewed": "I've renewed this policy",
+  "notRenewing": "I'm not renewing",
+  "undo": "Undo",
+  "claimHealthTitle": "Health insurance claim",
+  "claimHealthStep1": "Check that the hospital is in your insurer's network (for cashless treatment).",
+  "claimHealthStep2": "Planned admission: request cashless pre-authorisation at the hospital's insurance desk at least 48 hours before.",
+  "claimHealthStep3": "Emergency admission: inform your insurer or TPA within 24 hours.",
+  "claimHealthStep4": "Show your health card / policy number and photo ID at the hospital.",
+  "claimHealthStep5": "For reimbursement (non-network hospital), pay the bill and submit the claim within the time stated in your policy.",
+  "claimHealthStep6": "Track your claim with the claim reference number your insurer gives you.",
+  "claimHealthDoc1": "Claim form (signed)",
+  "claimHealthDoc2": "Policy copy / health card",
+  "claimHealthDoc3": "Photo ID and address proof",
+  "claimHealthDoc4": "Discharge summary",
+  "claimHealthDoc5": "Original hospital bills and payment receipts",
+  "claimHealthDoc6": "Doctor's prescriptions and investigation reports",
+  "claimHealthDoc7": "Cancelled cheque or bank details (for reimbursement)",
+  "claimMotorTitle": "Motor insurance claim",
+  "claimMotorStep1": "Ensure everyone is safe. For theft or third-party injury, file an FIR with the police.",
+  "claimMotorStep2": "Inform your insurer as soon as possible and get a claim number.",
+  "claimMotorStep3": "Do not repair the vehicle before the insurer's surveyor inspects it (unless told otherwise).",
+  "claimMotorStep4": "Take the vehicle to a network garage for cashless repair, or any garage for reimbursement.",
+  "claimMotorStep5": "Pay any compulsory deductible and non-covered items; the insurer settles the rest.",
+  "claimMotorDoc1": "Claim form",
+  "claimMotorDoc2": "Policy copy",
+  "claimMotorDoc3": "Registration certificate (RC)",
+  "claimMotorDoc4": "Driving licence of the driver",
+  "claimMotorDoc5": "FIR (for theft, major accident or third-party claims)",
+  "claimMotorDoc6": "Repair estimate and final invoice",
+  "claimLifeTitle": "Life insurance claim",
+  "claimLifeStep1": "The nominee should inform the insurer as soon as possible.",
+  "claimLifeStep2": "Collect the claim form from the insurer's branch or website.",
+  "claimLifeStep3": "Submit the form with the required documents.",
+  "claimLifeStep4": "The insurer may investigate claims made within the first few policy years.",
+  "claimLifeStep5": "Track the claim status with the insurer.",
+  "claimLifeDoc1": "Claim form",
+  "claimLifeDoc2": "Original policy document",
+  "claimLifeDoc3": "Death certificate",
+  "claimLifeDoc4": "Nominee's photo ID, address proof and bank details",
+  "claimLifeDoc5": "Medical records / FIR and post-mortem report (if applicable)",
+  "claimOtherTitle": "Making a claim",
+  "claimOtherStep1": "Read your policy to confirm the event is covered.",
+  "claimOtherStep2": "Inform your insurer as soon as possible and get a claim number.",
+  "claimOtherStep3": "Submit the claim form and supporting documents.",
+  "claimOtherStep4": "Track your claim with the insurer.",
+  "claimOtherDoc1": "Claim form",
+  "claimOtherDoc2": "Policy copy",
+  "claimOtherDoc3": "Photo ID",
+  "claimOtherDoc4": "Proof of loss / bills",
+  "explore": "Explore",
+  "claimGuides": "Claim guides",
+  "comingSoon": "Coming soon",
+  "gmailImport": "Gmail import",
+  "digiLocker": "DigiLocker",
+  "claimTracking": "Claim tracking",
+  "wellness": "Wellness",
+  "deathLife1": "Inform the insurer as soon as possible (call centre, branch or website) and note the claim number.",
+  "deathLife2": "The nominee fills the death claim form and attaches the documents below.",
+  "deathLife3": "For deaths within the first 3 policy years the insurer may investigate before paying — this is normal.",
+  "deathLife4": "The claim amount is paid to the nominee's bank account. If the nominee is a minor, the appointee receives it.",
+  "deathHealth1": "A health policy ends for the person who died. If it is a family floater, the other members stay covered until renewal.",
+  "deathHealth2": "Any pending hospital bills can still be claimed by the nominee — submit them within the claim time limit.",
+  "deathHealth3": "Inform the insurer to remove the member and update the policy at renewal.",
+  "deathMotor1": "The vehicle and its insurance must be transferred to the legal heir within the time the insurer specifies.",
+  "deathMotor2": "Inform the insurer with the death certificate and the new owner's documents.",
+  "deathMotor3": "Until transfer, avoid using the vehicle — claims may be refused if the registered owner has died.",
+  "deathOther1": "Inform the insurer with the death certificate and ask for their claim or transfer process.",
+  "deathDoc1": "Death certificate (original or attested copy)",
+  "deathDoc2": "Policy document or policy number",
+  "deathDoc3": "Nominee's photo ID and address proof (Aadhaar / PAN)",
+  "deathDoc4": "Nominee's bank details (cancelled cheque)",
+  "deathDoc5": "Medical records or hospital discharge summary (if applicable)",
+  "deathDoc6": "FIR and post-mortem report (for accidental death)",
+  "shareSubject": "My {type} insurance details",
+  "@shareSubject": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "shareBody": "Keep this safe.\n\n{name} — {type} insurance\nPolicy number: {number}\nCover: {cover}\nNominees: {nominees}\n\nIf something happens to me:\n{steps}",
+  "@shareBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      },
+      "number": {
+        "type": "String"
+      },
+      "cover": {
+        "type": "String"
+      },
+      "nominees": {
+        "type": "String"
+      },
+      "steps": {
+        "type": "String"
+      }
+    }
+  },
+  "seePolicyDocument": "see policy document",
+  "addNominee": "Add nominee",
+  "fullyAssigned": "100% of the claim amount is assigned",
+  "noNomineeYet": "No nominee recorded yet",
+  "assignedLeft": "{assigned}% assigned · {left}% left",
+  "@assignedLeft": {
+    "placeholders": {
+      "assigned": {
+        "type": "int"
+      },
+      "left": {
+        "type": "int"
+      }
+    }
+  },
+  "nomineeLegalNote": "This is your own record. The nominee that counts legally is the one registered with your insurer — keep them the same.",
+  "minorAppointee": "Minor · appointee: {name}",
+  "@minorAppointee": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notSet": "not set",
+  "ifSomethingHappens": "If something happens to you",
+  "docsFamilyNeeds": "Documents your family will need",
+  "shareWithFamily": "Share these details with family",
+  "needAppointee": "Add an appointee — an adult who receives the money for a minor.",
+  "editNominee": "Edit nominee",
+  "pickFromFamily": "Pick from family",
+  "fullNameAsPolicy": "Full name (as in the policy)",
+  "relationship": "Relationship",
+  "shareOfClaim": "Share of claim: {percent}%",
+  "@shareOfClaim": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "appointeeLabel": "Appointee (adult who receives money for the minor)",
+  "phoneOptional": "Phone (optional)",
+  "removeNominee": "Remove nominee",
+  "notFoundFillIn": "Not found in document — please fill in",
+  "doubleCheck": "Please double-check this",
+  "startBeforeEnd": "Start date must be before end date.",
+  "checkPolicyDetails": "Check your policy details",
+  "enterPolicyDetails": "Enter policy details",
+  "editPolicyDetails": "Edit policy details",
+  "weReadDetails": "We read these details from your document. Please check them carefully — fields marked in amber need your attention.",
+  "insuranceType": "Insurance type",
+  "insurerRequired": "Insurer is required",
+  "planName": "Plan name",
+  "idvRupees": "IDV (₹)",
+  "sumAssuredRupees": "Sum assured (₹)",
+  "sumInsuredRupees": "Sum insured (₹)",
+  "premiumRupees": "Premium (₹)",
+  "premiumFrequency": "Premium frequency",
+  "notSure": "Not sure",
+  "confirmAddPolicy": "Confirm & add policy",
+  "select": "Select",
+  "whoIsCoveredQ": "Who is covered?",
+  "addFamilyMembers": "Add family members",
+  "statusCovered": "Covered",
+  "statusLimited": "Covered with limits",
+  "statusMissing": "Not covered",
+  "statusInfo": "Policy detail",
+  "statusUnknown": "Not found in your document",
+  "ratingStrong": "Strong",
+  "ratingFair": "Fair",
+  "ratingWeak": "Weak",
+  "ratingLabel": "Rating: {label}",
+  "@ratingLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "sampleReport": "Sample report",
+  "reportNotAvailable": "Report not available",
+  "reportTypesNote": "Coverage reports are available for health, life and motor policies.",
+  "coverAtGlance": "Your cover at a glance",
+  "addOnsCount": "{count, plural, =1{1 add-on} other{{count} add-ons}}",
+  "@addOnsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fromPolicyPage": "From your policy · page {page}",
+  "@fromPolicyPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "fromPolicyDetails": "From your policy details",
+  "fromPolicyWording": "From your policy wording",
+  "pageN": "page {page}",
+  "@pageN": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "notMentioned": "Not mentioned in the document we read",
+  "whyItMatters": "Why it matters",
+  "askAboutThisQ": "What does my policy say about {topic}?",
+  "@askAboutThisQ": {
+    "placeholders": {
+      "topic": {
+        "type": "String"
+      }
+    }
+  },
+  "askAboutThis": "Ask about this",
+  "seeForOwnPolicy": "See this for your own policy",
+  "questionsAboutCover": "Questions about your cover?",
+  "addPolicyShort": "Add policy",
+  "hero1": "a maternity bill?",
+  "hero2": "a knee surgery?",
+  "hero3": "a flooded car engine?",
+  "hero4": "a 10-day ICU stay?",
+  "hero5": "your family's future?",
+  "whichPolicy": "Which policy?",
+  "willPolicyCover": "Will your policy cover",
+  "statHealth": "Health",
+  "statLife": "Life",
+  "perYear": "Per year",
+  "askAboutYourCover": "Ask about your cover",
+  "askWhichPolicy": "Ask about which policy?",
+  "addPolicyFirst": "Add a policy first, then you can ask questions about it.",
+  "askAnything": "Ask anything about your cover",
+  "requestReview": "Request a policy review",
+  "expertWillCall": "An insurance expert will call you on your registered number to walk through your policies. We won't try to sell you anything.",
+  "helpWithOptional": "What would you like help with? (optional)",
+  "requestCall": "Request call",
+  "requestSent": "Request sent. Our team will call you on your registered number.",
+  "talkToExpert": "Talk to an expert",
+  "expertPitch": "A 30-minute walk through your cover and what to do next. No selling.",
+  "sugMaternity": "Is maternity covered?",
+  "sugRoomRent": "What is the room rent limit?",
+  "sugPed": "What is the waiting period for pre-existing diseases?",
+  "sugExcluded": "What is excluded?",
+  "sugZeroDep": "Is zero depreciation included?",
+  "sugIdv": "What is my IDV?",
+  "sugRoadside": "Is roadside assistance covered?",
+  "sugDeathBenefit": "What is the death benefit?",
+  "sugNominee": "Who is the nominee?",
+  "sugSurrender": "Can I surrender this policy?",
+  "sugCover": "What does this policy cover?",
+  "askAboutYourPolicy": "Ask about your policy",
+  "checkingDocument": "Checking your policy document…",
+  "askAQuestion": "Ask a question…",
+  "askAnythingPolicy": "Ask anything about this policy",
+  "answersFromDocument": "Answers come only from your policy document, with the page they were found on.",
+  "pageLabel": "Page {page}",
+  "@pageLabel": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "sourceLabel": "Source: {source}",
+  "@sourceLabel": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "policyDocument": "policy document",
+  "confidenceLabel": "Confidence: {level, select, high{high} medium{medium} low{low} other{{level}}}",
+  "@confidenceLabel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "fileTooBig": "File must be under 20 MB.",
+  "wrongFileType": "Please choose a PDF, JPG or PNG file.",
+  "addAPolicyTitle": "Add a policy",
+  "uploadIntro": "Upload your policy document and we'll read it for you. Make sure it shows the policy number, start and end dates, premium, cover amount and insurer/plan name.",
+  "uploadingPercent": "Uploading… {percent}%",
+  "@uploadingPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "uploadPdf": "Upload policy PDF",
+  "recommendedBest": "Recommended · Best accuracy",
+  "takePhoto": "Take a photo",
+  "photoTip": "Place the policy on a flat, well-lit surface",
+  "uploadPhoto": "Upload a photo of the policy",
+  "jpgOrPng": "JPG or PNG",
+  "enterManually": "Enter details manually",
+  "noDocumentNeeded": "No document needed",
+  "importGmail": "Import from Gmail",
+  "docsEncrypted": "Your documents are encrypted and only visible to you.",
+  "couldNotDial": "Could not open the dialler for {number}",
+  "@couldNotDial": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "callFirst": "In an emergency, call first.",
+  "insuranceCanWait": "Insurance questions can wait. Get help, then use the details below.",
+  "emergency": "Emergency",
+  "ambulance": "Ambulance",
+  "yourPolicyNumbers": "Your policy numbers",
+  "addPolicyNumberHint": "Add a policy and its number will show here, ready to quote at the hospital or to your insurer.",
+  "goodToKnow": "Good to know",
+  "tipCashless": "For planned cashless treatment, tell the hospital desk your insurer and policy number first.",
+  "tipHelpline": "Your insurer's claims helpline is printed on your policy document and e-card. Keep it handy.",
+  "tipIntimation": "Many policies want an intimation within 24 hours of an emergency admission. Check the time limit in your wording.",
+  "callLabel": "Call {label} {number}",
+  "@callLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "policyNumberNotAdded": "Policy number not added yet",
+  "validTill": "{type} · valid till {date}",
+  "@validTill": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "copyPolicyNumber": "Copy policy number",
+  "policyNumberCopied": "Policy number copied",
+  "rewards": "Rewards",
+  "earnCoins": "EARN COINS",
+  "useCoins": "USE COINS",
+  "yourCoins": "Your coins",
+  "coinsCount": "{count, plural, =1{1 coin} other{{count} coins}}",
+  "@coinsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "earnedForOrganising": "Earned for organising your insurance",
+  "waysToEarn": "Ways to earn",
+  "progressDone": "{progress} done",
+  "@progressDone": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "history": "History",
+  "useYourCoins": "Use your coins",
+  "perksOnTheWay": "Perks are on the way. Keep earning — your coins will be ready when they launch.",
+  "familyTitle": "Family",
+  "addMember": "Add member",
+  "addYourFamily": "Add your family",
+  "addFamilyMessage": "Add the people covered by your policies to see who is protected and where the gaps are.",
+  "notLinked": "Not linked to any policy",
+  "addFamilyMember": "Add family member",
+  "editFamilyMember": "Edit family member",
+  "removeMember": "Remove member",
+  "policyTypeName": "{type, select, health{Health} life{Life} motor{Motor} other{Other}}",
+  "@policyTypeName": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "enumLabel": "{value, select, self{Self} spouse{Spouse} child{Child} parent{Parent} sibling{Sibling} otherValue{Other} annual{Annual} half_yearly{Half-yearly} quarterly{Quarterly} monthly{Monthly} single{Single} other{}}",
+  "@enumLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "clauseType": "{type, select, benefit{Benefit} exclusion{Exclusion} waiting_period{Waiting period} limit{Limit} condition{Condition} definition{Definition} other{Clause}}",
+  "@clauseType": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "untitledPolicy": "Untitled policy",
+  "errPdfPassword": "This PDF is password-protected. Please upload an unlocked copy.",
+  "errPdfTooManyPages": "This document has too many pages. Please upload only the policy schedule and wording.",
+  "errPdfUnreadable": "We couldn't open this file. It may be damaged.",
+  "errNoText": "We couldn't read any text. Try a clearer photo or the original PDF.",
+  "errOcrUnavailable": "Scanned documents can't be read right now. Please upload a digital PDF or enter details manually.",
+  "errAiUnavailable": "Our reading service is busy. Please retry in a minute.",
+  "errProcessing": "We couldn't process this document.",
+  "yourPolicies": "Your policies",
+  "coinsOpenRewards": "Coins: {count}. Open rewards",
+  "@coinsOpenRewards": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "policiesNeedCheck": "{count, plural, =1{1 policy needs a quick check from you} other{{count} policies need a quick check from you}}",
+  "@policiesNeedCheck": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysLeftEnds": "days left · ends {date}",
+  "@daysLeftEnds": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "earnCoinsOrganised": "Earn coins for staying organised",
+  "addPoliciesNominees": "Add policies, nominees and family members.",
+  "worthALook": "Worth a look",
+  "allCount": "All {count}",
+  "@allCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "details": "Details",
+  "myInsurance": "My insurance",
+  "nothingHereYet": "Nothing here yet",
+  "addPoliciesHere": "Add your health, life and motor policies and they will all live here.",
+  "allWithCount": "All ({count})",
+  "@allWithCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noPoliciesOfType": "No policies of this type.",
+  "takingLonger": "This is taking longer than usual. We'll keep working on it — check back shortly.",
+  "readingYourPolicy": "Reading your policy",
+  "underAMinute": "This usually takes under a minute.",
+  "noClausesYet": "No clauses yet",
+  "clausesNote": "Clauses are read from your uploaded policy document. Manually added policies have none.",
+  "searchWording": "Search the policy wording",
+  "nothingMatches": "Nothing matches.",
+  "notEnoughDetails": "Not enough details yet",
+  "healthCounts": "{strong} strong · {attention} need attention · {missing} not covered",
+  "@healthCounts": {
+    "placeholders": {
+      "strong": {
+        "type": "int"
+      },
+      "attention": {
+        "type": "int"
+      },
+      "missing": {
+        "type": "int"
+      }
+    }
+  },
+  "needsAttention": "Needs attention",
+  "notMentionedInDoc": "Not mentioned in your document",
+  "markAllRead": "Mark all read",
+  "allCaughtUp": "You're all caught up",
+  "notificationsAppearHere": "Renewal reminders and policy updates will appear here.",
+  "profile": "Profile",
+  "account": "Account",
+  "helpLegal": "Help & legal",
+  "termsConditions": "Terms & conditions",
+  "logOut": "Log out",
+  "comparePolicies": "Compare policies",
+  "compareN": "Compare {count} policies",
+  "@compareN": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "choose2or3": "Choose 2 or 3 policies",
+  "compareIntro": "Compare policies you already have — for example two health policies — to see differences in cover and features.",
+  "typeCover": "{type} · {amount} cover",
+  "@typeCover": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "sideBySide": "Side by side",
+  "reviewNeeded": "Review needed",
+  "statusActive": "Active",
+  "endsInDays": "{days, plural, =1{Ends in 1 day} other{Ends in {days} days}}",
+  "@endsInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statusExpired": "Expired",
+  "datesMissing": "Dates missing",
+  "daysLeft": "{days, plural, =1{1 day left} other{{days} days left}}",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "checkupTitle": "Your insurance check-up",
+  "lookingGood": "Looking good",
+  "noGapsFound": "We found no gaps in the policies you have added.",
+  "demoMode": "Demo mode · offline AI",
+  "confirmAppLock": "Confirm to turn on app lock",
+  "unlockApp": "Unlock {app}",
+  "@unlockApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "unlock": "Unlock",
+  "loading": "Loading",
+  "neverMissRenewal": "Never miss a renewal",
+  "pushPromptBody": "Turn on notifications for renewal reminders, processing updates and important policy alerts. Only things that matter — no marketing.",
+  "notNow": "Not now",
+  "allow": "Allow",
+  "somethingWrong": "Something went wrong",
+  "timedOut": "The connection timed out. Please try again.",
+  "cantReachServer": "Can't reach the server. Check your internet connection.",
+  "somethingWrongRetry": "Something went wrong. Please try again.",
+  "appearance": "Appearance",
+  "themeSystem": "Same as phone",
+  "themeLight": "Light",
+  "themeDark": "Dark"
+}
